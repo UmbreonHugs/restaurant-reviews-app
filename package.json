@@ -1,0 +1,16 @@
+{
+  "name": "restaurant-reviews-app",
+  "version": "1.0.0",
+  "description": "Restaurant Review App for Udacity Front End Nanodegree",
+  "main": "index.html",
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {},
+  "dependencies": {
+    "browser-sync": "^2.24.7",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^6.0.0",
+    "gulp-babel": "^8.0.0",
+    "gulp-sass": "^4.0.1"
+  }
+}

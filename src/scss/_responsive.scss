@@ -1,0 +1,92 @@
+// small devices
+@media screen and (max-width: $breakpoint-sm) {
+  .restaurant-img {
+    min-height: 128px;
+  }
+  .restaurants-list {
+    padding: 30px 0px 60px;
+      li {
+      margin: 20px 0;
+    }
+  }
+  nav {
+    line-height: 55px;
+    h1 a {
+      font-size: 12pt;
+      letter-spacing: 5px;
+    }
+  }
+  .filter-options {
+    height: auto;
+    text-align: center;
+  }
+}
+// medium devices
+@media screen and (min-width: $breakpoint-md) {
+  .restaurants-list li {
+    width: 40vw;
+  }
+}
+@media screen and (max-width: $breakpoint-xl) {
+      .reviews-container {
+      padding: 30px 0px 80px;
+    }
+    .restaurant-info {
+      width: 100%;
+    }
+    .restaurant-cuisine {
+      width: 100%;
+    }
+    .inside .map-container {
+      /* background: blue none repeat scroll 0 0; */
+      height: 400px;
+      position: relative;
+      left: 0;
+      top: 80px;
+      width: 100%;
+      z-index: 0;
+    }
+    .restaurant-container, .reviews-container {
+      width: 100%;
+      padding: 80px 0px 70px 0px;
+    }
+    .reviews-list li {
+      width: 100%;
+    }
+    .breadcrumb {
+      width: calc(100% - 80px);
+    }
+    .inside #footer {
+      width: 100%;
+    }
+    .restaurant-img {
+      width: 100%;
+      height: auto;
+    }
+}
+
+@media screen and (min-width: $breakpoint-lg) {
+  .restaurants-list li {
+    width: 29vw;
+  }
+  .restaurant-img {
+    width: 50%;
+  }
+  .restaurant-info {
+    width: 50%;
+  }
+}
+@media screen and (min-width: $breakpoint-xl) {
+  .restaurants-list li {
+    width: 23%;
+  }
+    .inside .map-container {
+        /* background: blue none repeat scroll 0 0; */
+        height: 100%;
+        position: fixed;
+        right: 0;
+        top: 80px;
+        width: 50%;
+        z-index: 0;
+      }
+}

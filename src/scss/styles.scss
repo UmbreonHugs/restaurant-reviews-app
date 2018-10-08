@@ -1,0 +1,31 @@
+// General Settings //
+@charset "utf-8";
+
+// BREAKPOINTS //
+$breakpoint-sm: 480px;
+$breakpoint-md: 768px;
+$breakpoint-lg: 1024px;
+$breakpoint-xl: 1425px;
+
+// Theme Color //
+$primary: #e65628;
+$secondary: #ff0000;
+$font-color: #333333;
+$background-color: #fff;
+$unfocused: #666;
+$shade-1: #ddd;
+$dark: #212121;
+
+
+// Font settings //
+@import url(https://fonts.googleapis.com/css?family=Montserrat:300,400,700);
+$font-size: 16px;
+$font-family: "Montserrat", sans-serif;
+// IMPORT //
+@import "breadcrumb";
+@import "elements";
+@import "footer";
+@import "nav";
+@import "restaurant";
+@import "reviews";
+@import "responsive";
